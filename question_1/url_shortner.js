@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-const logger = require("../logging middleware/logging");
+const logger = require("../logging_middleware/logging");
 
 app.use(express.json());
 app.use(logger);
